@@ -1,0 +1,175 @@
+body {
+  background-image: url(image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+.main {
+  position: static;
+  top: 50%;
+  left: 50%;
+  transform: static(-50%, -100%);
+}
+
+.google {
+  position: relative;
+  width: 380px;
+  top: 30px;
+  right:50px;
+}
+
+.searchb {
+  width: 500px;
+  height: 45px;
+  position: absolute;
+  transform: translate(-20%, 50%);
+  position: relative;
+  bottom: 70px;
+}
+
+input[type="text"] {
+  position: absolute;
+  width: calc(100% - 100px); /* Adjusted to leave space for mic icon */
+  height: 100%;
+  left: 0;
+  border-radius: 50px;
+  border: 1px solid #d5d4d4;
+  outline: none;
+  padding: 0 40px 0 45px;
+  font-size: 16px;
+  font-family: 'Noto Sans HK', sans-serif;
+  box-shadow: 0 2px 10px -7px #000;
+}
+
+.searchicon {
+  top: 13px;
+  left: 18px;
+  color: #777;
+  font-size: 21px;
+  z-index: 1;
+  position: relative;
+}
+
+.mic {
+  position: absolute;
+  width: 13px;
+  right: 55px; /* Adjusted to align with input */
+  top: 13px;
+
+}
+
+.sbutton {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  border-color: #000;
+}
+
+input[type="submit"] {
+  background: #ebe8e8;
+  border: none;
+  padding: 8px 20px;
+  margin: 10px;
+  color: #4e4d4d;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0 0 2px #000;
+  color: #000;
+  background: #ede8e8;
+}
+
+
+
+.avatar {
+  width: 35px;
+  border-radius: 50%;
+  margin: 10px 20px 0 0;
+}
+
+.navtext {
+  color: #444;
+  text-decoration: none;
+  top: 12px;
+  position: relative;
+  margin: 5px;
+   
+}
+
+.navtext:hover {
+  text-decoration: underline;
+}
+
+.apps {
+  position: relative;
+  margin: 10px;
+  top: 6px;
+  color: #555;
+  cursor: pointer;
+}
+#apps{
+  position:relative;
+ 
+  top:10px
+}
+#app{
+  position:relative;
+  right: 10px;
+  top:1px
+}
+#pqrs{
+  position:relative;
+  left:100px;
+  bottom: 55px;
+  
+}
+#vik{
+  position:relative;
+  right:600px;
+  bottom:116px;
+  background-color:white;
+  color:black;
+  border-radius:10px;
+  border-width: 25px;
+  border-color: rgb(101, 159, 204);
+}
+#vik:hover{
+  background-color:black;
+  color: white;
+  
+}
+#kum{
+  position: relative;
+  right: 100px;
+  border-radius: 2px;
+  border-color: black;
+
+
+}
+#riv{
+  position: relative;
+  bottom: 116px;
+  right:580px;
+  background-color:white;
+  color:black;
+  border-radius: 10px;
+  border-color: aqua;
+ 
+  padding: 7px;
+ 
+  
+}
+.dropdown{
+  position: relative;
+  right: 20px;
+}
+.form{
+  position: relative;
+
+  left:550px
+}
